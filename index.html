@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>India Disaster Risk WebGIS</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>India Disaster Risk Map</h2>
+
+
+<p id="updateTime" style="font-size:14px;color:#555;"></p>
+<div>
+<button onclick="showAll()">Show All</button>
+<button onclick="showFlood()">Flood</button>
+<button onclick="showCyclone()">Cyclone</button>
+<button onclick="showEarthquake()">Earthquake</button>
+</div>
+
+<div id="stats">
+<p><b>Disaster Statistics</b></p>
+<p>Floods: 2</p>
+<p>Cyclones: 1</p>
+<p>Earthquakes: 1</p>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="map.js"></script>
+
+</body>
+</html>

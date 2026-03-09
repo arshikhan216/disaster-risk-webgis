@@ -1,0 +1,58 @@
+{
+"type": "FeatureCollection",
+"features": [
+
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [77.1025, 28.7041]
+},
+"properties": {
+"type": "Flood",
+"location": "Delhi",
+"risk": "Medium"
+}
+},
+
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [88.3639, 22.5726]
+},
+"properties": {
+"type": "Cyclone",
+"location": "Kolkata",
+"risk": "High"
+}
+},
+
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [72.8777, 19.0760]
+},
+"properties": {
+"type": "Flood",
+"location": "Mumbai",
+"risk": "High"
+}
+},
+
+{
+"type": "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [78.4867, 17.3850]
+},
+"properties": {
+"type": "Earthquake",
+"location": "Hyderabad",
+"risk": "Low"
+}
+}
+
+]
+}
